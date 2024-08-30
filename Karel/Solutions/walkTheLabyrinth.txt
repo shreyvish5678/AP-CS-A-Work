@@ -11,9 +11,10 @@ F6 = dropBeeper();
 void walkTheLabyrinth() {
     while (!onBeeper()) {
         if (!frontIsClear()) {
-            turnRight();
-            if (!frontIsClear()) {
-                turnLeft();
+            if (!leftIsClear()) {
+                turnRight();
+            }
+            else {
                 turnLeft();
             }
         }
