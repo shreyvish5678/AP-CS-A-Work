@@ -1,7 +1,18 @@
 import java.util.Scanner;
 import java.io.PrintWriter;
 
+/**
+ * 	Cities in the US using StdDraw
+ * 	
+ * 	@author Shrey Vishen
+ * 	@since September 8, 2024
+ */
+
 public class USMap {
+	/**
+	 * 	Creates the window, and graphs the cities on the window
+	 * 	
+	 */
 	public static void main(String[] args) {
 		StdDraw.setTitle("USMap");
 		StdDraw.setCanvasSize(900, 512);
